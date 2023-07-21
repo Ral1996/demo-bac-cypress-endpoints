@@ -1,0 +1,57 @@
+PS C:\Users\raul-\OneDrive\Documentos\Stefanini\demo-bac-cypress-endpoints> npm -i init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (demo-bac-cypress-endpoints)
+version: (1.0.0)
+description: Demo Rest API Testing With Cypress For BAC.
+entry point: (index.js)
+test command: REST, CYPRESS, API
+git repository:
+keywords: REST, API, CYPRESS, BAC
+author: Ing. Raul Mauricio Portillo Muñoz
+license: (ISC)
+About to write to C:\Users\raul-\OneDrive\Documentos\Stefanini\demo-bac-cypress-endpoints\package.json:
+
+{
+  "name": "demo-bac-cypress-endpoints",
+  "version": "1.0.0",
+  "description": "Demo Rest API Testing With Cypress For BAC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "REST, CYPRESS, API"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "CYPRESS",
+    "BAC"
+  ],
+  "author": "Ing. Raul Mauricio Portillo Muñoz",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+PS C:\Users\raul-\OneDrive\Documentos\Stefanini\demo-bac-cypress-endpoints> npm install cypress --save-dev
+
+added 173 packages, and audited 174 packages in 48s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+3 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
