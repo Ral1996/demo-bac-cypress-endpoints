@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
+    "runOnChromeTerminal": "cypress run --browser chrome",
+    "runOnChromeBrowser": "cypress run --browser chrome --headed",
     "test": "jest"
   },
   "keywords": [
