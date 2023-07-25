@@ -64,7 +64,7 @@ describe('Demo Inicial Endpoints para BAC', () => {
 
     cy.api({
       method: 'GET',
-      url: host + 'objectsERROR',
+      url: host + 'objects',
       headers: {},
       failOnStatusCode: true
     }).then((response) => {
