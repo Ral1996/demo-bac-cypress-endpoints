@@ -1,0 +1,13 @@
+name: Demo BAC Cypress Endpoints
+on: [push]
+jobs:
+  cypress-run: 
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.5.3
+      - name: Cypress.io
+        uses: cypress-io/github-action@e08da4966cec4d8f99cf72b09d3362aae2c5391c
+        with: 
+          start: npm run runOnChromeTerminal
+      
